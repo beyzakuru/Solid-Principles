@@ -1,7 +1,8 @@
 ﻿#region Kodun çalıştırıldığı kısım
 
 Renault renault = new Renault();
-#region Single Responsibilty Uymayan 
+
+#region Parametre Gönderimi (Single Responsibilty Uymayan Metoda) 
 renault.SendInfoDriver(new DriveInfo
 {
     EmailAdress = "beyza@gmail.com",
@@ -9,7 +10,7 @@ renault.SendInfoDriver(new DriveInfo
 });
 #endregion
 
-#region Single Responsibilty Uyan
+#region Parametre Gönderimi (Single Responsibilty Uyan Metoda)
 renault.SendInfoDriverMail(new DriveInfo
 {
     EmailAdress = "beyza@gmail.com"
@@ -44,7 +45,7 @@ public class Renault
         Console.WriteLine("SMS Gönderildi.");
     }
 
-    // Sürücü bilgileri alınarak eğer email adresi null ya da boş değilse SendMail metodunu çalıştıracağız. Telefon değeri boşş ya da null değilse SendSms metodunu çalıştıracağız.
+    // Sürücü bilgileri alınarak eğer email adresi null ya da boş değilse SendMail metodunu çalıştıracağız.Telefon değeri boş ya da null değilse SendSms metodunu çalıştıracağız.
 
     // Bir metot içerisinde birden fazla işlem yapılmaması gerektiğini gösteren bir metot yazalım. 
 
@@ -60,8 +61,8 @@ public class Renault
         }
     }
 
-    // Buradaki aşamada sadece tek bir kanal ile kullanıcının kendine bilgilendirme gelmesini istemesi durumunda iki kanaldan da bilgilendirme yapılmaktadır. 
-    // Dolayısıyla single responsibility prensibine uymasını sağlamak amacıyla ayırma işlemi gerçekleştirmemiz gerekmektedir.
+    // Yukarıdaki metotta sadece tek bir kanal ile kullanıcının kendine bilgilendirme gelmesini istemesi durumunda iki kanaldan da bilgilendirme yapılmaktadır. 
+    // Dolayısıyla single responsibility prensibine uymasını sağlamak amacıyla ayırma işlemi gerçekleştirmemiz gerekmektedir. Aşağıdaki metotta bunu sağlayacağız.
 
     #region Single Responsibility İşlemleri İçin Yapılan Alan
     public void SendInfoDriverSms(DriveInfo driver)
@@ -82,9 +83,6 @@ public class Renault
     #endregion
 
 }
-
-// Senaryomuz bir metot içerisinde birden fazla iş yapmak istemiyoruz. Araba ile ilgili bilgileri sürücüye atacağımız bir servisimiz olacaktır. Email adresimiz ve telefon numaramız null değilse mail ve sms atıyor olacağız. 
-
 
 public class DriveInfo
 {
