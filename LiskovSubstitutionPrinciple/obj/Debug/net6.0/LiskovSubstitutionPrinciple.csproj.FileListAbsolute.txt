@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.exe
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.deps.json
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.runtimeconfig.json
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.dll
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\bin\Debug\net6.0\LiskovSubstitutionPrinciple.pdb
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.sourcelink.json
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.dll
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\refint\LiskovSubstitutionPrinciple.dll
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.pdb
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\LiskovSubstitutionPrinciple.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\SolidPrinciples\LiskovSubstitutionPrinciple\obj\Debug\net6.0\ref\LiskovSubstitutionPrinciple.dll
